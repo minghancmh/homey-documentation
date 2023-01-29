@@ -8,6 +8,7 @@
   - [Use Case Description]()
 - [Figma UI Mockup]()
 - [Compiled Document]()
-<a href="/images/myw3schoolsimage.jpg" download>
-  <img src="/images/myw3schoolsimage.jpg" alt="W3Schools">
+<a href="/blob/main/Use%20Case%20Diagram.pdf" download>
+  <img src="/blob/main/Use%20Case%20Diagram.pdf" alt="Use Case Diagram">
 </a>
+https://github.com/minghancmh/SWE_ngnrs/blob/main/Use%20Case%20Diagram.pdf
