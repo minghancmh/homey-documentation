@@ -1,12 +1,12 @@
 # Homey
 
 ### Lab 1 Deliverables
-- [Elicitation of functional and non-functional requirements]()
-- [Data Dictionary]()
+- [Elicitation of Functional and Non-Functional Requirements](https://docs.google.com/document/d/1irqTw25X6IBvD8n4N40J3LPHLP-R8VNuR0lWsdqbJmU/edit#heading=h.xngnl6y2afd1)
+- [Data Dictionary](https://docs.google.com/document/d/17RxJSruLC-KlR0tzMdv9m2PQ0bPyOjxQN_oy1ZNhEmo/edit?usp=sharing)
 - Initial Use Case Model
-  - [Use Case Diagram](<a href="Use%20Case%20Diagram.pdf" download="Use Case Diagram"></a>)
+  - [Use Case Diagram](https://github.com/minghancmh/SWE_ngnrs/blob/main/Use%20Case%20Diagram.pdf)
   - [Use Case Description]()
 - [Figma UI Mockup]()
-- [Compiled Document]()
+- [Compiled Document](https://docs.google.com/document/d/1kaAuabxeVb_EmPA6twUbcvUEGEDMBVcPPCKGei73HaQ/edit#)
 
 
