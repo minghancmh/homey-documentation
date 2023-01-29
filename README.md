@@ -8,7 +8,7 @@
   - [Use Case Description]()
 - [Figma UI Mockup]()
 - [Compiled Document]()
-<a href="/blob/main/Use%20Case%20Diagram.pdf" download>
-  <img src="/blob/main/Use%20Case%20Diagram.pdf" alt="Use Case Diagram">
+<a href="Use%20Case%20Diagram.pdf" download>
+  <img src="Use%20Case%20Diagram.pdf" alt="Use Case Diagram">
 </a>
 https://github.com/minghancmh/SWE_ngnrs/blob/main/Use%20Case%20Diagram.pdf
