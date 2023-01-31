@@ -1,4 +1,14 @@
 # Homey
+### Mission
+This project aims to bridge the gap between landlords and tenants or homeowners and buyers within the long-term rental property market in Singapore. 
+
+### Vision
+As such, this project aims to address the issues within the real estate market on 3 fronts:
+
+1. To cut the middleman out of the sale, reducing costs for homeowners/landlords and future buyers/tenants.
+2. To provide a fair and convenient platform for tenants/future buyers to effortlessly view different available property.
+3. To protect homeowners from illegally subletting/selling their HDB units.
+
 
 ### Lab 1 Deliverables
 
