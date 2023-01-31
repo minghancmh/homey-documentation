@@ -11,7 +11,7 @@ As such, this project aims to address the issues within the real estate market o
 
 
 ### Lab 1 Deliverables
-
+* [x] [Introduction](https://drive.google.com/file/d/1-PHS_ayP6BJNtYwiFOUkqlcnTxXL4Hfh/view?usp=share_link)
 * [x] [Elicitation of Functional and Non-Functional Requirements](https://drive.google.com/file/d/17EPE8molQBRZ64h3asW_dp8andSYKFBn/view?usp=share_link)
 * [x] [Data Dictionary](https://drive.google.com/file/d/1XZJdO13SIRw4yyPp5IKg1b3aoZ-yHzGs/view?usp=share_link)
 * [x] Initial Use Case Model
