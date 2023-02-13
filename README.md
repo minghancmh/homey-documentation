@@ -24,5 +24,5 @@ As such, this project aims to address the issues within the real estate market o
 * [x] [Use Case descriptions](https://drive.google.com/file/d/14ARKyOAz4KljBTSHKSPBdb1aJCt9JJGk/view?usp=share_link)
 * [ ] [Class diagram of entity classes](link)
 * [ ] [Key boundary classes and control classes](link)
-* [ ] [Sequence diagrams of some use cases](link)
+* [x] [Sequence diagrams of some use cases](https://drive.google.com/file/d/17uuRdbn0Vo2Zjk1cHcQhKbUHmHkH7q2x/view?usp=share_link)
 * [x] [Initial Dialog map](https://drive.google.com/file/d/1XCiUTIa-SXT5CWQUzLcsq3_EdIhdpO5T/view?usp=share_link)
