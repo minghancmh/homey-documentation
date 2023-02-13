@@ -22,7 +22,6 @@ As such, this project aims to address the issues within the real estate market o
 ### Lab 2 Deliverables
 * [x] [Complete Use Case diagram](https://drive.google.com/file/d/1uwa6X2ho1tCpod6Vufol7QHldFmIAp8n/view?usp=share_link)
 * [x] [Use Case descriptions](https://drive.google.com/file/d/14ARKyOAz4KljBTSHKSPBdb1aJCt9JJGk/view?usp=share_link)
-* [ ] [Class diagram of entity classes](link)
-* [ ] [Key boundary classes and control classes](link)
+* [x] [Class diagram of entity classes, key boundary classes and control classes](https://drive.google.com/file/d/1ODXVIHPtiw95Sio60T8q0yAF2k_x2uhY/view?usp=share_link)
 * [x] [Sequence diagrams of some use cases](https://drive.google.com/file/d/17uuRdbn0Vo2Zjk1cHcQhKbUHmHkH7q2x/view?usp=share_link)
 * [x] [Initial Dialog map](https://drive.google.com/file/d/1XCiUTIa-SXT5CWQUzLcsq3_EdIhdpO5T/view?usp=share_link)
