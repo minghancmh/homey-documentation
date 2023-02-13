@@ -18,3 +18,11 @@ As such, this project aims to address the issues within the real estate market o
   * [x] [Use Case Diagram](https://drive.google.com/file/d/19foFnuIY04G6UjX1YUh8ebxfzgCWJ8D7/view?usp=share_link)
   * [x] [Use Case Description](https://drive.google.com/file/d/1RLOVipyYrB35SFoQqaHxupB4TpgSIOoF/view?usp=share_link)
 * [x] [Wireframes & Mockups](https://drive.google.com/drive/folders/1m04g98kfz5ijCq92JmrkBiFnzteBb_UI?usp=share_link)
+
+### Lab 2 Deliverables
+* [x] [Complete Use Case diagram](https://drive.google.com/file/d/1uwa6X2ho1tCpod6Vufol7QHldFmIAp8n/view?usp=share_link)
+* [x] [Use Case descriptions](https://drive.google.com/file/d/14ARKyOAz4KljBTSHKSPBdb1aJCt9JJGk/view?usp=share_link)
+* [ ] [Class diagram of entity classes](link)
+* [ ] [Key boundary classes and control classes](link)
+* [ ] [Sequence diagrams of some use cases](link)
+* [x] [Initial Dialog map](https://drive.google.com/file/d/1XCiUTIa-SXT5CWQUzLcsq3_EdIhdpO5T/view?usp=share_link)
