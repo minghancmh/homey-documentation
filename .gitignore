@@ -1,1 +1,6 @@
-.env
+#Visual Paradigm backup files
+*.vpp.vbak
+*.vpp.bak*
+*.vpp.lck
+
+.DS_Store
