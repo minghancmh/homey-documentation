@@ -1,17 +1,20 @@
 import json
 from flask import Flask, Response, render_template, request
 from flask_sqlalchemy import SQLAlchemy
-import sqlalchemy
+import sqlalchemy.schema
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker, query
 from sqlalchemy import JSON, Column, String, Integer, create_engine, Insert, select
-from sqlalchemy.sql.expression import update
 import mysql.connector
-from enum import Enum
+from sqlalchemy.types import Enum, PickleType
+import enum
 from sqlalchemy.orm import sessionmaker
 from sqlalchemy import MetaData
 import os
+import pickle
 from dotenv import load_dotenv
+
+
 load_dotenv() #load environment variables
 
 
@@ -21,12 +24,18 @@ app = Flask(__name__)
 app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+mysqlconnector://'+os.getenv("MYSQL_USERNAME")+ ':' + os.getenv("MYSQL_PASSWORD") + '@localhost/homey_db'
 
 db = SQLAlchemy(app)
-engine = create_engine('mysql+mysqlconnector://root:mysqlmurong@localhost/homey_db', echo = True)
+engine = create_engine(app.config['SQLALCHEMY_DATABASE_URI'], echo = True)
 Session = sessionmaker(bind = engine)
 session = Session()
 
+# enums
+
+class PropertyType(enum.Enum):
+    RENT = 1
+    SALE = 2
 
 
+# models
 class Accounts(db.Model): 
     __tablename__ = 'UserAccounts'
     UserID = Column('UserID', Integer, primary_key=True, unique=True)
@@ -43,18 +52,43 @@ class Accounts(db.Model):
         self.Email = Email
         self.SavedListings = SavedListings
         self.Address = Address
-    
-    def __repr__(self):
-        return f"{self.UserID} , {self.Username}"
+
     
     def as_dict(self):
-        attr = ["UserID", "Username", "Password", "Email",]
         return {c.name: getattr(self, c.name) for c in self.__table__.columns}
+
+class Property(db.Model):
+    __tablename__ = 'Property'
+    PropertyID = Column('PropertyID', String(100), primary_key=True)
+    ClusterID = Column('ClusterID', String(100))
+    PropertyType = Column('PropertyType', Enum(PropertyType))
+
+    def __init__(self, PropertyID, ClusterID, PropertyType):
+        self.PropertyID = PropertyID
+        self.ClusterID = ClusterID
+        self.PropertyType = PropertyType
     
+    def as_dict(self):
+        return {c.name: getattr(self, c.name) for c in self.__table__.columns}
 
 
+class UserSavedProperty(db.Model):
+    __tablename__ = 'SavedListings'
+    UserID = Column('UserID', String(100), primary_key=True)
+    PropertyID = Column('PropertyID', String(100))
+    Property = Column('Property', PickleType) 
+    sqlalchemy.schema.PrimaryKeyConstraint('UserID', 'SavedListingID', name='uniq1')
+
+    def __init__(self, UserID, PropertyID, Property):
+        self.UserID = UserID
+        self.PropertyID = PropertyID
+        self.Property = Property
+
+    def as_dict(self):
+        return {c.name: getattr(self, c.name) for c in self.__table__.columns}
 
 
+# routes
 @app.route("/createUser", methods=["POST", "GET"])
 def create():
     # data = json.loads('{"UserID": 12, "Username": "hello", "Password": "1234", "Email": "hello@gmail.com", "SavedListings": 9, "Address": "clementi"}')
@@ -82,7 +116,7 @@ def view(user_id):
 
 
 
-@app.route("/delete/<int:UserID>", methods=["POST", "GET"])
+@app.route("/delete/<int:UserID>", methods=["GET"])
 def delete(UserID):
     if request.method == 'GET':
         account = Accounts.query.filter_by(UserID=UserID).first()
