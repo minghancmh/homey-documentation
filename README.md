@@ -1,14 +1,5 @@
 # Homey
-### Mission
-This project aims to bridge the gap between landlords and tenants or homeowners and buyers within the long-term rental property market in Singapore. 
-
-### Vision
-As such, this project aims to address the issues within the real estate market on 3 fronts:
-
-1. To cut the middleman out of the sale, reducing costs for homeowners/landlords and future buyers/tenants.
-2. To provide a fair and convenient platform for tenants/future buyers to effortlessly view different available property.
-3. To protect homeowners from illegally subletting/selling their HDB units.
-
+Homey seeks to provide a comprehensive and convenient online platform for homebuyers, sellers, and renters to search for properties, view property listings and connect with agents. The web application is designed to simplify the property search process and make it easy for users to find their dream home or investment property.
 
 ### Lab 1 Deliverables
 * [x] [Introduction](https://drive.google.com/file/d/1-PHS_ayP6BJNtYwiFOUkqlcnTxXL4Hfh/view?usp=share_link)
@@ -27,10 +18,10 @@ As such, this project aims to address the issues within the real estate market o
 * [x] [Initial Dialog map](https://drive.google.com/file/d/1XCiUTIa-SXT5CWQUzLcsq3_EdIhdpO5T/view?usp=share_link)
 
 ### Lab 3 Deliverables
-* [ ] [Complete Use Case Model]()
-* [ ] Design Model
-  * [ ] [Class Diagram]()
-  * [ ] [Sequence Diagram]()
-  * [ ] [Dialog Map]()
-* [ ] [System Architecture]()
+* [x] [Complete Use Case model](./uml/exports/UseCase.pdf)
+* [x] [Design Model]()
+  * [x] [Stereotyped Class diagram](./uml/exports/ClassDiagram.pdf)
+  * [x] [Sequence diagrams](./uml/exports/SequenceDiagrams/)
+  * [x] [Dialog map](./uml/exports/DialogMap.pdf)
+* [x] [System architecture](./uml/exports/Architecture.pdf)
 * [ ] [Application Skeleton]()
