@@ -25,3 +25,12 @@ As such, this project aims to address the issues within the real estate market o
 * [x] [Class diagram of entity classes, key boundary classes and control classes](https://drive.google.com/file/d/1ODXVIHPtiw95Sio60T8q0yAF2k_x2uhY/view?usp=share_link)
 * [x] [Sequence diagrams of some use cases](https://drive.google.com/file/d/1XqY0fTCXpIklt7zOLJdT-0pNw5zC0LzP/view?usp=sharing)
 * [x] [Initial Dialog map](https://drive.google.com/file/d/1XCiUTIa-SXT5CWQUzLcsq3_EdIhdpO5T/view?usp=share_link)
+
+### Lab 3 Deliverables
+* [ ] [Complete Use Case Model]()
+* [ ] Design Model
+  * [ ] [Class Diagram]()
+  * [ ] [Sequence Diagram]()
+  * [ ] [Dialog Map]()
+* [ ] [System Architecture]()
+* [ ] [Application Skeleton]()
