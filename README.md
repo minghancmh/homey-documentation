@@ -18,10 +18,13 @@ Homey seeks to provide a comprehensive and convenient online platform for homebu
 * [x] [Initial Dialog map](https://drive.google.com/file/d/1XCiUTIa-SXT5CWQUzLcsq3_EdIhdpO5T/view?usp=share_link)
 
 ### Lab 3 Deliverables
+> 📝 Compiled SRS [v0.4.1](https://drive.google.com/file/d/16upVRG50Ocp8dTJdpBwUG6fRpca_tIbZ/view?usp=share_link)
+
 * [x] [Complete Use Case model](./uml/exports/UseCase.pdf)
 * [x] [Design Model]()
   * [x] [Stereotyped Class diagram](./uml/exports/ClassDiagram.pdf)
   * [x] [Sequence diagrams](./uml/exports/SequenceDiagrams/)
   * [x] [Dialog map](./uml/exports/DialogMap.pdf)
 * [x] [System architecture](./uml/exports/Architecture.pdf)
-* [ ] [Application Skeleton]()
+* [x] [Application Skeleton](https://drive.google.com/file/d/16upVRG50Ocp8dTJdpBwUG6fRpca_tIbZ/view?usp=share_link)
+
