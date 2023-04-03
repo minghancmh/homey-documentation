@@ -28,3 +28,7 @@ Homey seeks to provide a comprehensive and convenient online platform for homebu
 * [x] [System architecture](./uml/exports/Architecture.pdf)
 * [x] [Application Skeleton](https://drive.google.com/file/d/16upVRG50Ocp8dTJdpBwUG6fRpca_tIbZ/view?usp=share_link)
 
+### Lab 4 Deliverables
+* [x] Working application prototype
+* [x] Source code
+* [x] Test Cases and Testing Results
